@@ -1,5 +1,7 @@
 # Script Execution Menu - PowerShell Script
 
+![License](https://img.shields.io/github/license/modom-ofn/scripts) ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
 ## Overview
 
 This PowerShell script provides an interactive menu that allows users to select and execute other PowerShell scripts from a specified folder. It’s designed to streamline the execution of scripts by presenting a user-friendly interface for script selection.
