@@ -41,7 +41,7 @@ This PowerShell script provides an interactive menu that allows users to select 
 
   ```powershell
   Copy code
-  .\YourScriptName.ps1
+  .\script-execution-menu.ps1
   ```
   You will be presented with a menu listing available scripts. Make your selection to execute the script.
 
