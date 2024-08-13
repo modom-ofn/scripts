@@ -1,5 +1,7 @@
 # AKS Cluster Management Script
 
+![License](https://img.shields.io/github/license/modom-ofn/scripts) ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
 ## Overview
 
 This script is designed to simplify the management of an Azure Kubernetes Service (AKS) cluster by allowing users to connect to the cluster and execute custom PowerShell scripts from a specified folder. The script performs the following tasks:
