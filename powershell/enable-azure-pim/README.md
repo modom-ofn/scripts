@@ -1,5 +1,7 @@
 # Azure PIM Group Management Script
 
+![License](https://img.shields.io/github/license/modom-ofn/scripts) ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+
 This PowerShell script allows you to log in to Azure, list all available Privileged Identity Management (PIM) groups, view their activation status, and activate groups as needed. The script continuously loops, providing you with the option to enable other PIM groups or exit the script.
 
 ## Prerequisites
