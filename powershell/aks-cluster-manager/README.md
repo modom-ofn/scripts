@@ -33,6 +33,29 @@ This script is designed to simplify the management of an Azure Kubernetes Servic
    - You can select a script to run by entering the corresponding number.
    - If no scripts are found, or if an invalid selection is made, the script will handle these scenarios gracefully.
 
+## Currently Available Scripts
+
+1. **Scale AKS Node Pool**:
+   - This script allows you to scale the number of nodes in a specific node pool within your AKS cluster.
+2. **List All Pods in a Namespace**:
+   - This script lists all the pods in a specified namespace, along with their statuses.
+3. **View Logs for a Specific Pod**:
+   - This script fetches and displays logs from a specific pod within a namespace.
+4. **Get Cluster Info**:
+   - This script provides detailed information about your AKS cluster, including node status, services, and other resources.
+5. **Deploy a YAML File to a Namespace**:
+   - This script allows you to deploy a Kubernetes resource (e.g., deployment, service) from a YAML file to a specific namespace.
+6. **Delete Resources in a Namespace**:
+   - This script deletes all resources (e.g., pods, services) within a specified namespace.
+7. **Upgrade AKS Cluster**:
+   - This script helps upgrade the AKS cluster to a specified Kubernetes version.
+8. **Backup and Restore Kubernetes Configurations**:
+   - These scripts help you back up and restore Kubernetes configurations, such as ConfigMaps and Secrets.
+9. **Monitor Resource Usage in a Namespace**:
+   - This script uses kubectl top to monitor CPU and memory usage for pods and nodes.
+10. **Create a New Namespace**:
+   - This script creates a new namespace in your AKS cluster..
+
 ## Customization
 
 - **Scripts Folder**: By default, the script looks for PowerShell scripts in the `./scripts` folder relative to where the script is run. You can change the path by modifying the `$scriptsFolderPath` variable.
